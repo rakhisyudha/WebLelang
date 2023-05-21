@@ -1,0 +1,35 @@
+.nav-search {
+	display: flex;
+	min-width: 300px;
+}
+.nav-search input {
+	min-width: 300px;
+}
+.user-navbar {
+	background-color: transparent;
+}
+.user-nav {
+	font-size: 18px;
+}
+@media only screen and (max-width: 768px) {
+	.navbar-form {
+		border: 0px solid transparent;
+	}
+	.nav-search {
+		min-width: auto;
+	}
+	.nav-search input {
+		min-width: auto;
+		max-width: 100%;
+	}
+	.user-nav > li {
+		display: inline-block;
+	}
+	.user-nav {
+		display: inline-block;
+		float: right;
+	}
+	.user-greeting {
+		display: inline-block;
+	}
+}
